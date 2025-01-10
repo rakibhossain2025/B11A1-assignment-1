@@ -3,16 +3,17 @@
   margin: 0;
   padding: 0;
 }
+/* This web style made based on width=1024px display  */
 body{
   margin: 0px 50px 0px 50px;
   font-family: Fira Sans;
+  background-color: #F1F1F3;
 }
 /* header styles  */
 header{
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
-  /* padding: 30px 0px 30px 0px; */
 }
 .header-text{
   font-size: 32px;
@@ -67,4 +68,75 @@ header{
   background-color: #006A50;
   border: none;
   border-radius: 8px;
+}
+/* The Vision of Future style  */
+.the-vision-bangla{
+  margin-top: 80px;
+}
+.vision-title-2{
+ color: rgba(14, 14, 14, 0.7);
+ margin-bottom: 32px;
+ font-size: 14px;
+}
+.vision-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.vision_container-2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+ }
+ .vision_box{
+   width: 400px;
+   height: auto;
+   background-color: rgba(0, 255, 0, 0.104);
+   border-radius: 10px;
+  }
+ 
+.vision-box-conti{
+  margin: 32px;
+}
+.vision-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 12px 0px 24px 0px;
+}
+
+.vision-title-2{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+}
+.vistion-bn{
+  background-color: rgba(255, 255, 255, 0.21);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 128, 0, 0.486);
+  cursor: pointer;
+}
+
+/* vision-card 2nd 3rd */
+.vision_card-2{
+  background-color: rgb(248, 60, 60);
+}
+.card-btn-2{
+  background-color: blue;
+}
+/* all hover style  */
+ .vision_box:hover{
+  background-color: rgba(0, 255, 0, 0.4);
+  animation-delay: 3s;
+  transition: 2s;
+}
+.vistion-bn:hover{
+  cursor:progress;
+  background-color: rgb(0, 94, 255);
+  transition: 1.5s;
 }
