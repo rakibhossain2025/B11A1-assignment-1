@@ -70,6 +70,40 @@ header{
   border: none;
   border-radius: 8px;
 }
+/* pillars desine  */
+.all_Pillars{
+  margin: 80px auto;
+}
+.pillar-title{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.pillars{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.pillar-card{
+  width: 25%;
+  height: auto;
+  border-radius: 16px;
+  padding: 20px;
+  background: #ffffff;
+}
+.pillar-des-1{
+  margin: 20px auto 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.884);
+}
+.pillar-des-2{
+  font-size: 14px;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: left;
+  margin-bottom: 15px;
+}
 /* The Vision of Future style  */
 /* text-desin  */
 .the-vision-bangla{
@@ -103,7 +137,6 @@ header{
    background-color: rgb(7, 255, 7);
    border-radius: 10px;
   }
- 
 .vision-box-conti{
   margin: 32px;
 }
