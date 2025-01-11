@@ -138,21 +138,18 @@ header{
 .vision_box-a:hover{
   background-color: rgba(84, 143, 245, 0.75);
   border-radius: 10px;
-  animation-delay: 3s;
   transition: 2s;
   box-shadow: 4px 4px 25px rgba(84, 144, 245, 0.99);
 }
 .vision_box-b:hover{
   background-color: rgba(103, 252, 182, 0.95);
   border-radius: 10px;
-  animation-delay: 3s;
   transition: 2s;
   box-shadow: 4px 4px 25px rgba(98, 240, 173, 0.95);
 }
 .vision_box-c:hover{
   background-color: rgba(240, 199, 103, 0.89);
   border-radius: 10px;
-  animation-delay: 3s;
   transition: 2s;
   box-shadow: 2px 2px 20px rgba(241, 197, 92, 0.795);
 }
@@ -173,7 +170,6 @@ header{
 .all_comon_btn-desin:hover{
   background-color: #06800ca6;
   color: white;
-  animation-delay: 2s;
   transition: 2s;
   cursor:pointer;
 }
@@ -329,7 +325,6 @@ table{
   border: none;
   border-radius: 8px;
   margin-top: 10px;
-
 }
 /* Donate Today  */
 .donat-title{
@@ -353,16 +348,14 @@ table{
   justify-content: center;
   gap: 30px;
 }
-.donat-box > button{
+.donat-butn{
   font-size: 25px;
   font-weight: bold;
   border-radius: 10px;
   border: none;
-  background: #ffffff;
   padding: 30px;
   text-transform: capitalize;
   cursor: pointer;
-  background-color: aquamarine;
 }
 .input-part{
   justify-content: center;   
@@ -389,6 +382,7 @@ table{
   background-color: #fff;
   outline: none;
   border: none;
+  border-radius: 10px;
 }
 .donat-btn-bottom{
 padding: 17px 40px;
@@ -397,6 +391,36 @@ border-radius: 10px;
 cursor: pointer;
 font-size: 18px;
 background-color: rgba(0, 106, 80, 1);
+}
+/* donat-style  */
+.donat-butn-1{
+  background-color: rgba(233, 79, 79, 0.452);
+}
+.donat-butn-2{
+  background-color: rgba(250, 126, 43, 0.438);
+}
+.donat-butn-3{
+  background-color: rgba(230, 240, 87, 0.418);
+}
+.donat-butn-4{
+  background-color: rgba(30, 255, 0, 0.322);
+}
+/* donat-hover style  */
+.donat-butn-1:hover{
+  background-color: rgb(250, 43, 43);
+  transition: 2s;
+}
+.donat-butn-2:hover{
+  background-color: rgb(250, 126, 43);
+  transition: 2s;
+}
+.donat-butn-3:hover{
+  background-color: rgb(231, 245, 33);
+  transition: 2s;
+}
+.donat-butn-4:hover{
+  background-color: rgb(30, 255, 0);
+  transition: 2s;
 }
 /* challenge part 2  */
 .newslatter-title-a{
